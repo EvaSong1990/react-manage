@@ -1,0 +1,99 @@
+@import '~antd/dist/antd.css';
+@import './style/add_goods.css';
+@import './style/search_goods.css';
+@import './style/goods_size.css';
+@import './style/category_manage.css';
+html,body,div,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  min-width: 1080px;
+}
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.App {
+  /* text-align: center; */
+}
+
+.App-sider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: calc(100% - (48px));
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 48px;
+  float: left;
+  text-align: center;
+}
+.logo-info {
+  color: #61D9FA;
+  line-height: 48px;
+  font-family: 'YouYuan';
+}
+.App-header {
+  background-color: #222;
+  line-height: 80px;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: calc(100% - (200px));
+  left: 200px;
+}
+
+.App-main {
+  width: calc(100% - (200px));
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+.App-header-width-c {
+  width: calc(100% - (80px));
+  left: 80px;
+}
+
+.App-main-width-c {
+  width: calc(100% - (80px));
+  margin-left: 80px;
+}
+
+.userInformation {
+  color: #fff;
+  float: right;
+  margin-right: 20px;
+  height: 60px;
+}
+
+.userInformation:hover {
+  color: #1890ff;
+}
+
+.App-title {
+  font-size: 2em;
+  float: left;
+  color: #fff;
+  padding: 0 16px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

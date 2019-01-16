@@ -1,0 +1,11 @@
+.goodsSize .editPart {
+    margin-bottom: 20px;
+}
+.goodsSize .editButton {
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

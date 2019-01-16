@@ -1,0 +1,25 @@
+.addGoods{
+
+}
+.addGoods .items {
+    display: flex;
+}
+.addGoods .goodItems {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.addGoods .goodItemsLabel {
+    text-align: right;
+    display: inline-block;
+    padding: 0 10px;
+    min-width: 80px;
+}
+.addGoods .goodItemsForm {
+    width: 230px;
+    vertical-align: middle;
+}
+.addGoods .editor {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
